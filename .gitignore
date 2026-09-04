@@ -1,0 +1,30 @@
+# Source data — large files, not submission artifacts
+public_data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Competition-provided assets (already in the original repo, not our submission)
+challenge_images/
+Singtel\ NAISC\ 2026\ Meet\ the\ Partner\ Session.pdf
+
+# NOTE: prediction.csv and model.joblib are REQUIRED submission files — do NOT exclude them
